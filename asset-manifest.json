@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/TalentBookingApp/static/css/main.39409eb1.chunk.css",
+    "main.js": "/TalentBookingApp/static/js/main.15dbad0e.chunk.js",
+    "main.js.map": "/TalentBookingApp/static/js/main.15dbad0e.chunk.js.map",
+    "runtime-main.js": "/TalentBookingApp/static/js/runtime-main.1ca78900.js",
+    "runtime-main.js.map": "/TalentBookingApp/static/js/runtime-main.1ca78900.js.map",
+    "static/js/2.9325fefb.chunk.js": "/TalentBookingApp/static/js/2.9325fefb.chunk.js",
+    "static/js/2.9325fefb.chunk.js.map": "/TalentBookingApp/static/js/2.9325fefb.chunk.js.map",
+    "static/js/3.fb803167.chunk.js": "/TalentBookingApp/static/js/3.fb803167.chunk.js",
+    "static/js/3.fb803167.chunk.js.map": "/TalentBookingApp/static/js/3.fb803167.chunk.js.map",
+    "index.html": "/TalentBookingApp/index.html",
+    "static/css/main.39409eb1.chunk.css.map": "/TalentBookingApp/static/css/main.39409eb1.chunk.css.map",
+    "static/js/2.9325fefb.chunk.js.LICENSE.txt": "/TalentBookingApp/static/js/2.9325fefb.chunk.js.LICENSE.txt",
+    "static/media/comp1.9321788d.svg": "/TalentBookingApp/static/media/comp1.9321788d.svg",
+    "static/media/comp2.5883a7db.svg": "/TalentBookingApp/static/media/comp2.5883a7db.svg",
+    "static/media/comp3.99ecf933.png": "/TalentBookingApp/static/media/comp3.99ecf933.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ca78900.js",
+    "static/js/2.9325fefb.chunk.js",
+    "static/css/main.39409eb1.chunk.css",
+    "static/js/main.15dbad0e.chunk.js"
+  ]
+}

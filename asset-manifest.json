@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/TalentBookingApp/static/css/main.787fea6b.chunk.css",
-    "main.js": "/TalentBookingApp/static/js/main.6498e283.chunk.js",
-    "main.js.map": "/TalentBookingApp/static/js/main.6498e283.chunk.js.map",
+    "main.css": "/TalentBookingApp/static/css/main.4d772bb3.chunk.css",
+    "main.js": "/TalentBookingApp/static/js/main.60d5b85a.chunk.js",
+    "main.js.map": "/TalentBookingApp/static/js/main.60d5b85a.chunk.js.map",
     "runtime-main.js": "/TalentBookingApp/static/js/runtime-main.c712341e.js",
     "runtime-main.js.map": "/TalentBookingApp/static/js/runtime-main.c712341e.js.map",
-    "static/js/2.b89c0a10.chunk.js": "/TalentBookingApp/static/js/2.b89c0a10.chunk.js",
-    "static/js/2.b89c0a10.chunk.js.map": "/TalentBookingApp/static/js/2.b89c0a10.chunk.js.map",
+    "static/js/2.b4ca2c92.chunk.js": "/TalentBookingApp/static/js/2.b4ca2c92.chunk.js",
+    "static/js/2.b4ca2c92.chunk.js.map": "/TalentBookingApp/static/js/2.b4ca2c92.chunk.js.map",
     "static/js/3.e8e8b492.chunk.js": "/TalentBookingApp/static/js/3.e8e8b492.chunk.js",
     "static/js/3.e8e8b492.chunk.js.map": "/TalentBookingApp/static/js/3.e8e8b492.chunk.js.map",
     "index.html": "/TalentBookingApp/index.html",
-    "static/css/main.787fea6b.chunk.css.map": "/TalentBookingApp/static/css/main.787fea6b.chunk.css.map",
-    "static/js/2.b89c0a10.chunk.js.LICENSE.txt": "/TalentBookingApp/static/js/2.b89c0a10.chunk.js.LICENSE.txt",
+    "static/css/main.4d772bb3.chunk.css.map": "/TalentBookingApp/static/css/main.4d772bb3.chunk.css.map",
+    "static/js/2.b4ca2c92.chunk.js.LICENSE.txt": "/TalentBookingApp/static/js/2.b4ca2c92.chunk.js.LICENSE.txt",
     "static/media/comp1.9321788d.svg": "/TalentBookingApp/static/media/comp1.9321788d.svg",
     "static/media/comp2.5883a7db.svg": "/TalentBookingApp/static/media/comp2.5883a7db.svg",
     "static/media/comp3.99ecf933.png": "/TalentBookingApp/static/media/comp3.99ecf933.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c712341e.js",
-    "static/js/2.b89c0a10.chunk.js",
-    "static/css/main.787fea6b.chunk.css",
-    "static/js/main.6498e283.chunk.js"
+    "static/js/2.b4ca2c92.chunk.js",
+    "static/css/main.4d772bb3.chunk.css",
+    "static/js/main.60d5b85a.chunk.js"
   ]
 }

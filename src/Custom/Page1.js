@@ -17,6 +17,7 @@ const useStyles = makeStyles((theme) => ({
     width: 98 + `%`,
     margin: 'auto',
     fontFamily: 'Montserrat, sansserif',
+    overflow: 'hidden',
   },
   divider: {
     width: 10 + `%`,
@@ -89,9 +90,9 @@ function Page1() {
           <Paper className={classes.paper}>
             <h1>How it works</h1>
             <p>
-              GigZoo uses technology to make booking talent affordable, instant,
-              direct and reliable - just as easy as reserving a hotel room
-              online! Here’s how it works:
+              TalentBook uses technology to make booking talent affordable,
+              instant, direct and reliable - just as easy as reserving a hotel
+              room online! Here’s how it works:
             </p>
           </Paper>
         </Grid>

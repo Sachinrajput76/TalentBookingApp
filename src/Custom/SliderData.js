@@ -1,11 +1,11 @@
 export const SliderData = [
   {
-    image: '../images/pic1.jpg',
+    image: process.env.PUBLIC_URL + '/images/pic1.jpg',
   },
   {
-    image: '../images/pic2.jpg',
+    image: process.env.PUBLIC_URL + '/images/pic2.jpg',
   },
   {
-    image: '../images/pic3.jpg',
+    image: process.env.PUBLIC_URL + '/images/pic3.jpg',
   },
 ]

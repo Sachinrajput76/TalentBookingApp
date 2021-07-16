@@ -5,7 +5,12 @@ import { makeStyles } from '@material-ui/core/styles'
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    overflow: 'hidden',
+    [theme.breakpoints.down('sm')]: {
+      overflow: 'hidden',
+    },
+    [theme.breakpoints.up('md')]: {
+      overflow: 'hidden',
+    },
   },
   paper: {
     padding: theme.spacing(3),
@@ -21,7 +26,16 @@ const useStyles = makeStyles((theme) => ({
         listStyle: 'none',
         cursor: 'pointer',
         margin: 8 + 'px' + ' auto',
+        [theme.breakpoints.down('sm')]: {
+          fontSize: 14,
+        },
+        [theme.breakpoints.up('md')]: {
+          fontSize: 14,
+        },
       },
+    },
+    '& h3': {
+      fontSize: '10px',
     },
   },
   unList1: {

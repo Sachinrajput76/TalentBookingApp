@@ -62,11 +62,32 @@
     height: auto;
     margin-left: -250px;
   }
+  .textOver p {
+    font-size: 14px;
+  }
+  .textOver h1 {
+    font-size: 22px;
+  }
 }
 @media (min-width: 600px) {
   .SliderImages img {
     width: 100%;
     height: auto;
     margin-left: 0px;
+  }
+  .textOver p {
+    font-size: 14px;
+  }
+  .textOver h1 {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 996px) {
+  .textOver p {
+    font-size: 28px;
+  }
+  .textOver h1 {
+    font-size: 44px;
   }
 }

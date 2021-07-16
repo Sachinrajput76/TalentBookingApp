@@ -15,6 +15,13 @@ const useStyles = makeStyles((theme) => ({
     zIndex: 10,
     position: 'relative',
     boxShadow: 'none',
+
+    [theme.breakpoints.down('sm')]: {
+      overflow: 'hidden',
+    },
+    [theme.breakpoints.up('md')]: {
+      overflow: 'hidden',
+    },
   },
   menuButton: {
     marginRight: theme.spacing(2),

@@ -17,7 +17,12 @@ const useStyles = makeStyles((theme) => ({
     width: 98 + `%`,
     margin: 'auto',
     fontFamily: 'Montserrat, sansserif',
-    overflow: 'hidden',
+    [theme.breakpoints.down('sm')]: {
+      overflow: 'hidden',
+    },
+    [theme.breakpoints.up('md')]: {
+      overflow: 'hidden',
+    },
   },
   divider: {
     width: 10 + `%`,

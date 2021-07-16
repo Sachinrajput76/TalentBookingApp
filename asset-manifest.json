@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/TalentBookingApp/static/css/main.39409eb1.chunk.css",
-    "main.js": "/TalentBookingApp/static/js/main.15dbad0e.chunk.js",
-    "main.js.map": "/TalentBookingApp/static/js/main.15dbad0e.chunk.js.map",
+    "main.js": "/TalentBookingApp/static/js/main.77ef760f.chunk.js",
+    "main.js.map": "/TalentBookingApp/static/js/main.77ef760f.chunk.js.map",
     "runtime-main.js": "/TalentBookingApp/static/js/runtime-main.1ca78900.js",
     "runtime-main.js.map": "/TalentBookingApp/static/js/runtime-main.1ca78900.js.map",
     "static/js/2.9325fefb.chunk.js": "/TalentBookingApp/static/js/2.9325fefb.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.1ca78900.js",
     "static/js/2.9325fefb.chunk.js",
     "static/css/main.39409eb1.chunk.css",
-    "static/js/main.15dbad0e.chunk.js"
+    "static/js/main.77ef760f.chunk.js"
   ]
 }

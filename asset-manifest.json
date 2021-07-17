@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/TalentBookingApp/static/css/main.4d772bb3.chunk.css",
-    "main.js": "/TalentBookingApp/static/js/main.60d5b85a.chunk.js",
-    "main.js.map": "/TalentBookingApp/static/js/main.60d5b85a.chunk.js.map",
-    "runtime-main.js": "/TalentBookingApp/static/js/runtime-main.c712341e.js",
-    "runtime-main.js.map": "/TalentBookingApp/static/js/runtime-main.c712341e.js.map",
-    "static/js/2.b4ca2c92.chunk.js": "/TalentBookingApp/static/js/2.b4ca2c92.chunk.js",
-    "static/js/2.b4ca2c92.chunk.js.map": "/TalentBookingApp/static/js/2.b4ca2c92.chunk.js.map",
-    "static/js/3.e8e8b492.chunk.js": "/TalentBookingApp/static/js/3.e8e8b492.chunk.js",
-    "static/js/3.e8e8b492.chunk.js.map": "/TalentBookingApp/static/js/3.e8e8b492.chunk.js.map",
+    "main.css": "/TalentBookingApp/static/css/main.deb22265.chunk.css",
+    "main.js": "/TalentBookingApp/static/js/main.40b98d9f.chunk.js",
+    "main.js.map": "/TalentBookingApp/static/js/main.40b98d9f.chunk.js.map",
+    "runtime-main.js": "/TalentBookingApp/static/js/runtime-main.4ba6f393.js",
+    "runtime-main.js.map": "/TalentBookingApp/static/js/runtime-main.4ba6f393.js.map",
+    "static/js/2.abb4f5dd.chunk.js": "/TalentBookingApp/static/js/2.abb4f5dd.chunk.js",
+    "static/js/2.abb4f5dd.chunk.js.map": "/TalentBookingApp/static/js/2.abb4f5dd.chunk.js.map",
+    "static/js/3.e19eb227.chunk.js": "/TalentBookingApp/static/js/3.e19eb227.chunk.js",
+    "static/js/3.e19eb227.chunk.js.map": "/TalentBookingApp/static/js/3.e19eb227.chunk.js.map",
     "index.html": "/TalentBookingApp/index.html",
-    "static/css/main.4d772bb3.chunk.css.map": "/TalentBookingApp/static/css/main.4d772bb3.chunk.css.map",
-    "static/js/2.b4ca2c92.chunk.js.LICENSE.txt": "/TalentBookingApp/static/js/2.b4ca2c92.chunk.js.LICENSE.txt",
+    "static/css/main.deb22265.chunk.css.map": "/TalentBookingApp/static/css/main.deb22265.chunk.css.map",
+    "static/js/2.abb4f5dd.chunk.js.LICENSE.txt": "/TalentBookingApp/static/js/2.abb4f5dd.chunk.js.LICENSE.txt",
     "static/media/comp1.9321788d.svg": "/TalentBookingApp/static/media/comp1.9321788d.svg",
     "static/media/comp2.5883a7db.svg": "/TalentBookingApp/static/media/comp2.5883a7db.svg",
-    "static/media/comp3.99ecf933.png": "/TalentBookingApp/static/media/comp3.99ecf933.png"
+    "static/media/comp3.99ecf933.png": "/TalentBookingApp/static/media/comp3.99ecf933.png",
+    "static/media/pic1.277c04da.jpg": "/TalentBookingApp/static/media/pic1.277c04da.jpg",
+    "static/media/pic2.c23949fe.jpg": "/TalentBookingApp/static/media/pic2.c23949fe.jpg",
+    "static/media/pic3.fa0a5d40.jpg": "/TalentBookingApp/static/media/pic3.fa0a5d40.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c712341e.js",
-    "static/js/2.b4ca2c92.chunk.js",
-    "static/css/main.4d772bb3.chunk.css",
-    "static/js/main.60d5b85a.chunk.js"
+    "static/js/runtime-main.4ba6f393.js",
+    "static/js/2.abb4f5dd.chunk.js",
+    "static/css/main.deb22265.chunk.css",
+    "static/js/main.40b98d9f.chunk.js"
   ]
 }

@@ -29,15 +29,16 @@ const Carousel = () => {
     )
   })
 
+  const nextSlide = () => {
+    const t1 = new Date().getTime()
+    setCurrent(current === SliderData.length - 1 ? 0 : current + 1)
+    const t2 = new Date().getTime()
+    console.log('time = ' + (t2 - t1) + ' milliseconds')
+  }
   const prevSlide = () => {
     setCurrent(current === 0 ? SliderData.length - 1 : current - 1)
-    console.log(current)
   }
 
-  const nextSlide = () => {
-    setCurrent(current === SliderData.length - 1 ? 0 : current + 1)
-    console.log(current)
-  }
   if (!Array.isArray(SliderData) || SliderData.length <= 0) {
     return null
   }

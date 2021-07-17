@@ -3,20 +3,20 @@ import { makeStyles } from '@material-ui/core/styles'
 import Paper from '@material-ui/core/Paper'
 import Grid from '@material-ui/core/Grid'
 import { Divider } from '@material-ui/core'
-import { ReactComponent as Comp1 } from '../images/comp1.svg'
-import { ReactComponent as Comp2 } from '../images/comp2.svg'
-import Comp3 from '../images/comp3.png'
-import Search from '../images/search.png'
-import Brouwse from '../images/browser.png'
+import { ReactComponent as Comp1 } from '../myimages/images/comp1.svg'
+import { ReactComponent as Comp2 } from '../myimages/images/comp2.svg'
+import Comp3 from '../myimages/images/comp3.png'
+import Search from '../myimages/images/search.png'
+import Brouwse from '../myimages/images/browser.png'
 
-import Lock from '../images/lock.png'
+import Lock from '../myimages/images/lock.png'
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     width: 98 + `%`,
     margin: 'auto',
-    fontFamily: 'Montserrat, sansserif',
+
     [theme.breakpoints.down('sm')]: {
       overflow: 'hidden',
     },
@@ -73,17 +73,17 @@ function Page1() {
             <h1>Our partners</h1>
           </Paper>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} md={4}>
           <Paper className={classes.paper}>
             <Comp1 />
           </Paper>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} md={4}>
           <Paper className={classes.paper}>
             <Comp2 className={classes.img2} />
           </Paper>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} md={4}>
           <Paper className={classes.paper}>
             <img src={Comp3} alt='comp3' />
           </Paper>
@@ -103,7 +103,7 @@ function Page1() {
         </Grid>
       </Grid>
       <Grid container spacing={3} className={classes.section2}>
-        <Grid item xs={4}>
+        <Grid item xs={12} md={4}>
           <Paper className={classes.paper}>
             <img src={Search} alt='nothing' />
             <h1>Search</h1>
@@ -113,7 +113,7 @@ function Page1() {
             </p>
           </Paper>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} md={4}>
           <Paper className={classes.paper}>
             <img src={Brouwse} alt='nothing' />
 
@@ -125,7 +125,7 @@ function Page1() {
             </p>
           </Paper>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} md={4}>
           <Paper className={classes.paper}>
             <img src={Lock} alt='nothing' />
             <h1>Book</h1>

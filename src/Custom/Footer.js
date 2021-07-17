@@ -1,6 +1,10 @@
 import React from 'react'
 import { AppBar, Container, Toolbar, Grid, Paper } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
+import FacebookIcon from '@material-ui/icons/Facebook'
+import TwitterIcon from '@material-ui/icons/Twitter'
+import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import GitHubIcon from '@material-ui/icons/GitHub'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -18,14 +22,19 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: 'none',
     color: 'white',
     textAlign: 'left',
-    fontFamily: 'Montserrat, sansserif',
+
     '& ul': {
       paddingLeft: 0,
+      [theme.breakpoints.down('sm')]: {
+        fontSize: 14,
+        justifyContent: 'space-between',
+        marginTop: 10,
+      },
 
       '& li': {
         listStyle: 'none',
         cursor: 'pointer',
-        margin: 8 + 'px' + ' auto',
+        margin: 8 + 'px ' + 8 + 'px',
         [theme.breakpoints.down('sm')]: {
           fontSize: 14,
         },
@@ -34,8 +43,15 @@ const useStyles = makeStyles((theme) => ({
         },
       },
     },
-    '& h3': {
-      fontSize: '10px',
+    '& h1': {
+      [theme.breakpoints.down('sm')]: {
+        textAlign: 'center',
+      },
+      [theme.breakpoints.up('md')]: {
+        textAlign: 'left',
+      },
+
+      textAlign: 'left',
     },
   },
   unList1: {
@@ -46,7 +62,12 @@ const useStyles = makeStyles((theme) => ({
   },
 }))
 
-const icons = ['icon1', 'icon2', 'icon3']
+const icons = [
+  <FacebookIcon />,
+  <TwitterIcon />,
+  <LinkedInIcon />,
+  <GitHubIcon />,
+]
 const Customers = [' Sign up', 'How it works', 'TalentBook Guarantee']
 const Talent = ['Sign up', 'Overview', 'Setup', 'Financials']
 const Resources = ['Help', 'Blog', 'Contact us', 'Privacy & Terms']
@@ -71,31 +92,31 @@ function Footer() {
       <Container maxWidth='md'>
         <Toolbar>
           <Grid container spacing={3}>
-            <Grid item xs={4}>
+            <Grid item xs={12} md={4}>
               <Paper className={classes.paper}>
                 <h1>TalentBook</h1>
                 <ul className={classes.unList1}>{list1}</ul>
               </Paper>
             </Grid>
-            <Grid item xs={2}>
+            <Grid item xs={6} md={2}>
               <Paper className={classes.paper}>
                 <h3>Company</h3>
                 <p>About us</p>
               </Paper>
             </Grid>
-            <Grid item xs={2}>
+            <Grid item xs={6} md={2}>
               <Paper className={classes.paper}>
                 <h3>Customers</h3>
                 <ul>{list2}</ul>
               </Paper>
             </Grid>
-            <Grid item xs={2}>
+            <Grid item xs={6} md={2}>
               <Paper className={classes.paper}>
                 <h3>Talent</h3>
                 <ul>{list3}</ul>
               </Paper>
             </Grid>
-            <Grid item xs={2}>
+            <Grid xs={6} md={2}>
               <Paper className={classes.paper}>
                 <h3>Resources</h3>
                 <ul>{list4}</ul>

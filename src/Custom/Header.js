@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: 'auto',
     fontSize: 16,
     fontWeight: 400,
-    fontFamily: 'Montserrat, sansserif',
+
   },
   menu: {
     display: 'flex',

@@ -1,11 +1,15 @@
+import image1 from '../myimages/images/pic1.jpg'
+import image2 from '../myimages/images/pic2.jpg'
+import image3 from '../myimages/images/pic3.jpg'
+
 export const SliderData = [
   {
-    image: process.env.PUBLIC_URL + '/images/pic1.jpg',
+    image: image1,
   },
   {
-    image: process.env.PUBLIC_URL + '/images/pic2.jpg',
+    image: image2,
   },
   {
-    image: process.env.PUBLIC_URL + '/images/pic3.jpg',
+    image: image3,
   },
 ]

@@ -4,10 +4,11 @@
 }
 .slider {
   position: relative;
-  height: 100vh;
   top: -64px;
   z-index: 0;
   overflow: hidden;
+  background: #001757;
+  height: 100vh;
 }
 .textOver {
   z-index: 10;
@@ -16,7 +17,7 @@
   left: 170px;
   color: white;
   text-align: left;
-  width: 30%;
+  width: 40%;
 }
 .textOver p {
   font-size: 22px;
@@ -29,8 +30,7 @@
   overflow: hidden;
 }
 .SliderImages img {
-  width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 .forwardArrow,
 .backArrow {
@@ -48,25 +48,33 @@
   left: 32px;
 }
 .slide {
-  opacity: 0.7;
-  transition: transform 0.3s ease-out;
+  transform: scale(1);
+  transition: 1s ease-out;
 }
 .active {
-  opacity: 1;
-  transition: 1s ease;
-  transform: scale(1.08);
+  transform: scale(1.1);
 }
+
 @media (min-width: 320px) {
   .SliderImages img {
     width: 1000px;
     height: auto;
     margin-left: -250px;
   }
+
+  .textOver {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: -10%;
+    left: 0;
+    right: 0;
+  }
   .textOver p {
     font-size: 14px;
+    margin-top: 10px;
   }
   .textOver h1 {
-    font-size: 22px;
+    font-size: 26px;
   }
 }
 @media (min-width: 600px) {
@@ -84,10 +92,15 @@
 }
 
 @media (min-width: 996px) {
+  .textOver {
+    width: 40%;
+    margin-top: 0;
+    margin-left: 18%;
+  }
   .textOver p {
     font-size: 28px;
   }
   .textOver h1 {
-    font-size: 44px;
+    font-size: 58px;
   }
 }

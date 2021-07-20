@@ -20,6 +20,15 @@ import ChangeText from './ChangeText'
 
 const Carousel = () => {
   const [current, setCurrent] = useState(0)
+
+  // https://stackoverflow.com/a/50227675/7544457
+  React.useEffect(() => {
+    SliderData.forEach(pic => {
+      const img = new Image();
+      img.src = pic.image
+    })
+  }, []);
+  
   // const Slideslength = SliderData.length
   const images = SliderData.map((img, index) => {
     return (
@@ -42,6 +51,7 @@ const Carousel = () => {
   if (!Array.isArray(SliderData) || SliderData.length <= 0) {
     return null
   }
+
   return (
     <section className='slider'>
       <ArrowBackIcon className='backArrow' onClick={prevSlide} />

@@ -23,12 +23,12 @@ const Carousel = () => {
 
   // https://stackoverflow.com/a/50227675/7544457
   React.useEffect(() => {
-    SliderData.forEach(pic => {
-      const img = new Image();
+    SliderData.forEach((pic) => {
+      const img = new Image()
       img.src = pic.image
     })
-  }, []);
-  
+  }, [current])
+
   // const Slideslength = SliderData.length
   const images = SliderData.map((img, index) => {
     return (

@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/TalentBookingApp/static/css/main.deb22265.chunk.css",
-    "main.js": "/TalentBookingApp/static/js/main.40b98d9f.chunk.js",
-    "main.js.map": "/TalentBookingApp/static/js/main.40b98d9f.chunk.js.map",
+    "main.css": "/TalentBookingApp/static/css/main.0e2ba665.chunk.css",
+    "main.js": "/TalentBookingApp/static/js/main.d7aac811.chunk.js",
+    "main.js.map": "/TalentBookingApp/static/js/main.d7aac811.chunk.js.map",
     "runtime-main.js": "/TalentBookingApp/static/js/runtime-main.4ba6f393.js",
     "runtime-main.js.map": "/TalentBookingApp/static/js/runtime-main.4ba6f393.js.map",
     "static/js/2.abb4f5dd.chunk.js": "/TalentBookingApp/static/js/2.abb4f5dd.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.e19eb227.chunk.js": "/TalentBookingApp/static/js/3.e19eb227.chunk.js",
     "static/js/3.e19eb227.chunk.js.map": "/TalentBookingApp/static/js/3.e19eb227.chunk.js.map",
     "index.html": "/TalentBookingApp/index.html",
-    "static/css/main.deb22265.chunk.css.map": "/TalentBookingApp/static/css/main.deb22265.chunk.css.map",
+    "static/css/main.0e2ba665.chunk.css.map": "/TalentBookingApp/static/css/main.0e2ba665.chunk.css.map",
     "static/js/2.abb4f5dd.chunk.js.LICENSE.txt": "/TalentBookingApp/static/js/2.abb4f5dd.chunk.js.LICENSE.txt",
     "static/media/comp1.9321788d.svg": "/TalentBookingApp/static/media/comp1.9321788d.svg",
     "static/media/comp2.5883a7db.svg": "/TalentBookingApp/static/media/comp2.5883a7db.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.4ba6f393.js",
     "static/js/2.abb4f5dd.chunk.js",
-    "static/css/main.deb22265.chunk.css",
-    "static/js/main.40b98d9f.chunk.js"
+    "static/css/main.0e2ba665.chunk.css",
+    "static/js/main.d7aac811.chunk.js"
   ]
 }
